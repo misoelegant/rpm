@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.2.0
+# Reroll Practice Mod v0.2.1
 
 ## Features
 
@@ -16,7 +16,25 @@
 - Replace the mod DLL of the same name in `katamari_Data/Managed` in your game folder.
 - You can replace the modded DLL with the original DLL to return to the unmodded game. The original DLL can be reacquired from Steam if you lose track of it.
 
-### Changes made in v0.2
+### Inserting existing IL PBs
+
+1. Open the game with the practice mod DLL installed and load a save file.
+2. The file "practice-mod-save.txt" should be created in the game directory. Close the game once the file has been created.
+3. Under the PBS section, each row after the first should have the name of a level followed by two sets of question marks (?:??).
+4. Change the *first* ?:?? to your IL time (be careful to only change the ?'s to numbers; try not to change anything else).
+5. Save the file and reopen the game.
+(In a future version it will be possible to import PBs from within the game itself, but this is the price of being an early adopter for now).
+
+## Changelog
+
+### Changes made in v0.2.1
+
+- Splits on the overworld should be in a resolution-independent position.
+- Splits on the overworld are hidden when not on Earth.
+- Movement speed is 2.5x faster on the home planet.
+- Movement speed is 4x faster on file select, down from 10x. It was slowed down to prevent a softlock caused by clipping through the file select letters.
+
+### Changes made in v0.2.0
 
 - Note: if you already have a save file from v0.1, *it should automatically migrate when you install v0.2*
 - IL splits added for the 10 RTA levels
@@ -38,13 +56,3 @@
 - Exact IGT displayed during gameplay and in post-goal results screen
 - Exact IGT PBs are saved for each level
 - Sum of truncated IGT PBs is shown on Earth
-
-### Inserting existing IL PBs
-
-1. Open the game with the practice mod DLL installed and load a save file.
-2. The file "practice-mod-save.txt" should be created in the game directory. Close the game once the file has been created.
-3. Under the PBS section, each row after the first should have the name of a level followed by two sets of question marks (?:??).
-4. Change the *first* ?:?? to your IL time (be careful to only change the ?'s to numbers; try not to change anything else).
-5. Save the file and reopen the game.
-
-This will be made easier in a future version.
