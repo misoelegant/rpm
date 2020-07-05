@@ -1,14 +1,20 @@
-# Reroll Practice Mod v0.2.1
+# Reroll Practice Mod v0.3.0 beta
+
+## v0.3.0 beta-specific notes
+- Saves from older versions should be automatically migrated, but if not, it will copy the older version that it couldn't read to `CORRUPTED-SAVE-BACKUP.txt`. Please let me know if your save data doesn't correctly migrate.
 
 ## Features
 
 - Much less downtime between attempts when practicing ILs.
-- Automatically track PBs, attempts, and playtime for each IL.
+- Automatically track PBs, attempts, and playtime for each IL within multiple categories.
 - Automatic splits for the 10 RTA levels which are shown during and after each attempt.
+- All IL PBs are recorded in the save file, along with the date they were achieved.
+  - Currently, your obsolete PBs not viewable from the game itself.
 
 ## Controls
 
 - Square button (X on 360 controllers) on Earth retries the last level played.
+- Triangle button (Y on 360 controllers) on Earth changes category. The current category is shown in the Earth UI.
 - F10 toggles the FPS display during gameplay.
 
 ## Installation
@@ -26,6 +32,17 @@
 (In a future version it will be possible to import PBs from within the game itself, but this is the price of being an early adopter for now).
 
 ## Changelog
+
+### Changes made in v0.3.0
+- Goalsize-based categories added: Any%, Any% (no boost).
+  - If you break a category's rules (e.g. boosting in no boost) you can keep playing, but the timer and overworld splits will show the DQ.
+- The king now reminds you of your current PB while the level is loading, possibly to taunt you.
+- Saved splits are now shown when a level is hovered on Earth.
+  - Hovering the last level you played will re-show the last attempt's splits.
+- If no splits are saved (or can be saved, in the case of constellations) for a level, this is now stated explicitly.
+- Added a "PB History" to the save file which saves each IL and its date achieved.
+- Non-RTA levels should now be properly playable.
+- The overworld "Sum of ILs" shows improvements.
 
 ### Changes made in v0.2.1
 
