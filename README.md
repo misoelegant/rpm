@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.3.0
+# Reroll Practice Mod v0.3.1
 
 ## Acknowledgements
 
@@ -55,6 +55,10 @@ but this is the only way to do it for now.
 5. Save the file and reopen the game.
 
 ## Changelog
+
+### Changes made in v0.3.1
+- Fix time played display: add a leading 0 to minutes under 10.
+- Fix the Min Object Types category scoring (hopefully).
 
 ### Changes made in v0.3.0
 - Five categories added: Any%, No Boost, Max Size, Max Objects, and Min Object Types.
