@@ -1,11 +1,11 @@
-# Reroll Practice Mod v0.4.0
+# Reroll Practice Mod v0.4.1
 
 ## Acknowledgements
 
 - Thanks to the players who tested the mod and provided feedback, ideas, and bug reports:
-  martini, rattmann, pimittens, Enzor,
+  martini, rattmann, pimittens, Enzor, dunewacky,
   and everyone else who has supported and engaged with the mod's ongoing development.
-- Huge thanks to sisuka for providing Japanese translations.
+- Huge thanks to sisuka and Harutomo for providing Japanese translations.
 
 ## Installation
 
@@ -71,6 +71,10 @@
     The models are instead named after the cousins that use them in VS mode, Marcy and Kuro.
 
 ## Changelog
+
+### Changes made in v0.4.1
+- Fixed an issue with Sum of ILs improperly updating.
+- Fixed a memory leak caused by pausing and unpausing the game.
 
 ### Changes made in v0.4.0
 - BGM/SE volume is saved automatically without having to manually save the game on the home planet.
