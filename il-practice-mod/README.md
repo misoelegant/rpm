@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.4.1
+# Reroll Practice Mod v0.4.2
 
 ## Acknowledgements
 
@@ -71,6 +71,10 @@
     The models are instead named after the cousins that use them in VS mode, Marcy and Kuro.
 
 ## Changelog
+
+### Changes made in v0.4.2
+- Fixed an issue where the camera would hide certain moving objects.
+- Added Japanese translations for v0.4 strings.
 
 ### Changes made in v0.4.1
 - Fixed an issue with Sum of ILs improperly updating.
