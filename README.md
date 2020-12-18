@@ -1,5 +1,10 @@
 # Katamari Damacy Reroll Speedrun Mods
 
+## Mod Updater
+
+- Automates the installation of the modded dlls found here.
+- Also automates downloading new versions.
+
 ## Reroll Practice Mod
 
 - Overhauls the entire game to be more speedrun friendly.
