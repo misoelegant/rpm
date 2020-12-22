@@ -1,9 +1,9 @@
-# Reroll Practice Mod v0.4.2
+# Reroll Practice Mod v0.5.0
 
 ## Acknowledgements
 
 - Thanks to the players who tested the mod and provided feedback, ideas, and bug reports:
-  martini, rattmann, pimittens, Enzor, dunewacky,
+  martini, rattmann, pimittens, Enzor, dunewacky, shamana,
   and everyone else who has supported and engaged with the mod's ongoing development.
 - Huge thanks to sisuka and Harutomo for providing Japanese translations.
 
@@ -25,6 +25,7 @@
 - Square button (X on 360 controllers) on Earth retries the last level played.
 - Triangle button (Y on 360 controllers) on Earth changes category.
 - The right analog stick controls scrollable lists (both on Earth and the pause menu).
+- F6 toggles the speed overlay during gameplay.
 - F10 toggles the developers' FPS display during gameplay.
 
 ## Categories
@@ -71,6 +72,15 @@
     The models are instead named after the cousins that use them in VS mode, Marcy and Kuro.
 
 ## Changelog
+
+### Changes made in v0.5.0
+- The game now skips file select and opens into the overworld.
+- The saving house on the home planet now shows a table of any% times.
+- Added "random" options for in-game cousin and katamari model.
+- Added a speed overlay during gameplay which can be toggled with F6.
+  This value is exposed by the physics engine directly and doesn't
+  accurately measure true katamari speed in all situations.
+  In particular, it seems to ignore y speed caused by gravity.
 
 ### Changes made in v0.4.2
 - Fixed an issue where the camera would hide certain moving objects.
