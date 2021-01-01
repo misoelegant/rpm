@@ -16,3 +16,8 @@
 
 - You should now be able to run `RPMUpdater.exe` to download and install
   the available mods.
+
+## Changelog
+
+### January 1, 2021
+- Added controls to set the game window's position when in windowed mode.
