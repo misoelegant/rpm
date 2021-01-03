@@ -1,16 +1,25 @@
-# Reroll Practice Mod v0.5.0
+# Reroll Practice Mod v0.5.1
 
 ## Acknowledgements
 
-- Thanks to the players who tested the mod and provided feedback, ideas, and bug reports:
-  martini, rattmann, pimittens, Enzor, dunewacky, shamana,
+- Thanks to the players who tested the mod and provided feedback, feature ideas, and bug reports:
+  martini, rattmann, pimittens, Enzor, dunewacky, shamana, Odyssic,
   and everyone else who has supported and engaged with the mod's ongoing development.
 - Huge thanks to sisuka and Harutomo for providing Japanese translations.
 
-## Installation
+## Launcher Installation
+
+- Download `RPMUpdater` from
+  [here](https://github.com/misoelegant/rpm/tree/master/updater)
+  and follow the setup instructions.
+- The launcher will automatically download updates and makes it much easier to
+  switch between the practice mod and the original game.
+
+### Manual Installation
 
 - Replace the mod DLL of the same name in `katamari_Data/Managed` in your game folder.
-- You can replace the modded DLL with the original DLL to return to the unmodded game. The original DLL can be reacquired from Steam if you lose track of it.
+- You can replace the modded DLL with the original DLL to return to the unmodded game.
+  The original DLL can be reacquired from Steam if you lose track of it.
 
 ## Features
 
@@ -57,6 +66,7 @@
 ## Mod Options menu
 
 - **Categories**: filters the available categories to a smaller subset.
+- **BGM**: choose a random, fixed, or the default background song to play in each stage.
 - **Run In Background**: forces the game to continue updating while it's not the active window.
 - **Spawn Cousins**: when on, cousin objects will always spawn.
 - **Spawn Presents**: when on, present objects will always spawn.
@@ -72,6 +82,21 @@
     The models are instead named after the cousins that use them in VS mode, Marcy and Kuro.
 
 ## Changelog
+
+### Changes made in v0.5.1
+- Added a more detailed speed overlay that compares true movement speed with
+  the internal "katamari speed".
+  Pressing F6 cycles through both available overlays.
+- Added a BGM option to the mod options menu.
+  You can choose to play the default song, a random song, or any
+  specific song.
+- The Earth overlay now shows a high score table and a recent score table.
+  Pressing R3 cycles between the tables.
+  Moving the right analog stick vertically scrolls both tables.
+- Moving to Earth using R1 or L1 starts the Earth movement timer.
+  Selecting a level while this timer is running will fly you back
+  to the home planet and stop the timer.
+- Fixed a bug on the home planet introduced by the previous version.
 
 ### Changes made in v0.5.0
 - The game now skips file select and opens into the overworld.
