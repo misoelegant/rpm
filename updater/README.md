@@ -19,5 +19,9 @@
 
 ## Changelog
 
-### January 1, 2021
+### 1/6/2021
+- Fixed a goofy bug that caused the practice mod to be listed as
+  an "unknown" version.
+
+### 1/1/2021
 - Added controls to set the game window's position when in windowed mode.
