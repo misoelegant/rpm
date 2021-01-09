@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.5.1
+# Reroll Practice Mod v0.5.2
 
 ## Acknowledgements
 
@@ -82,6 +82,9 @@
     The models are instead named after the cousins that use them in VS mode, Marcy and Kuro.
 
 ## Changelog
+
+### Changes made in v0.5.2
+- Added the boost gauge value to the speed overlay.
 
 ### Changes made in v0.5.1
 - Added a more detailed speed overlay that compares true movement speed with
