@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.5.2
+# Reroll Practice Mod v0.5.3
 
 ## Acknowledgements
 
@@ -36,6 +36,7 @@
 - The right analog stick controls scrollable lists (both on Earth and the pause menu).
 - F6 toggles the speed overlay during gameplay.
 - F10 toggles the developers' FPS display during gameplay.
+- In the endless category, R2 saves a state and L2 loads that state.
 
 ## Categories
 
@@ -82,6 +83,12 @@
     The models are instead named after the cousins that use them in VS mode, Marcy and Kuro.
 
 ## Changelog
+
+### Changes made in v0.5.3
+- Added primitive savestates:
+  - The "Endless" category has been added to each level. States are only
+  accessible in this category.
+  - Save state with R2 and load state with L2.
 
 ### Changes made in v0.5.2
 - Added the boost gauge value to the speed overlay.
