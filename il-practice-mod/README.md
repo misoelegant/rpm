@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.5.3
+# Reroll Practice Mod v0.5.4
 
 ## Acknowledgements
 
@@ -49,6 +49,7 @@
 | Max Objects      | Most objects picked up (time tiebreaker)                                          | All levels        |
 | 1438/RBA Runs    | Fastest time to clear the level while collecting everything on the 1438/RBA route | All levels        |
 | Bear/Cow Objects | Fastest time to clear the level by collecting the stated object.                  | Ursa Major/Taurus |
+| Endless          | A category without a goal or timer where savestates are enabled.                  | All levels        |
 
 - RTA levels means MAS1-MAS9 and MTM.
 - When time is used as a tiebreaker, your time is the *first time* you reach your score.
@@ -83,6 +84,21 @@
     The models are instead named after the cousins that use them in VS mode, Marcy and Kuro.
 
 ## Changelog
+
+### Changes made in v0.5.4
+- Some savestates polish:
+  - The Endless category is now actually endless.
+  - A popup message was added to show when a state is saved.
+  - States won't load in a different level than where they were made.
+  - Endless categories for Eternal stages were separated so that
+    they don't mix with Any%.
+- The home planet IL table can now be toggled between any% and no boost.
+- The pause menu object list is now computed using the simulation memory.
+  This has resulted in the ghost finger being exorcised.
+- BGM polish:
+  - The file select song was removed from the random BGM songs.
+  - The same song now can't play twice in a row on the random setting.
+
 
 ### Changes made in v0.5.3
 - Added primitive savestates:
