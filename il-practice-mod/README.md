@@ -55,16 +55,6 @@
 - When time is used as a tiebreaker, your time is the *first time* you reach your score.
   For example, if you end a Max Size run at 19cm7mm, your tiebreaker is the first time you reached 19cm7mm, even if you kept playing.
 
-## Importing your existing PBs
-
-1. Hover over the level on Earth and select the category you want to import into.
-2. Press the "Import PB" button shown on the bottom of the screen.
-3. Type your score in with the keyboard. The score will appear red until it's formatted correctly.
-    * For time, the score should look like "mm:ss" or "mm:ss.dd".
-    * For size, the score should look like "123m45cm6mm", with units left out as necessary.
-4. Press the "Confirm import" button.
-5. The imported score will always override your existing PB, so if you make a mistake, you can just re-import.
-
 ## Mod Options menu
 
 - **Categories**: filters the available categories to a smaller subset.
@@ -82,6 +72,31 @@
   - Most models are named after the levels where they're used in the unmodified game.
   - Two models aren't available in the unmodified single player game.
     The models are instead named after the cousins that use them in VS mode, Marcy and Kuro.
+
+## Savestates
+
+- Currently, it breaks the game when you cross a loading size more than once
+  using states:
+
+| Level | Loading sizes      |
+|-------|--------------------|
+| MAS2  | 10cm               |
+| MAS4  | 10cm, 20cm, 50cm   |
+| MAS5  | 45cm               |
+| MAS7  | 3m                 |
+| MAS8  | 45cm, 1m50cm, 5m   |
+| MAS9  | 3m, 12m            |
+| MTM   | 3m, 12m, 60m, 200m |
+
+## Importing your existing PBs
+
+1. Hover over the level on Earth and select the category you want to import into.
+2. Press the "Import PB" button shown on the bottom of the screen.
+3. Type your score in with the keyboard. The score will appear red until it's formatted correctly.
+    * For time, the score should look like "mm:ss" or "mm:ss.dd".
+    * For size, the score should look like "123m45cm6mm", with units left out as necessary.
+4. Press the "Confirm import" button.
+5. The imported score will always override your existing PB, so if you make a mistake, you can just re-import.
 
 ## Changelog
 
