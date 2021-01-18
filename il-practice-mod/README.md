@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.5.4
+# Reroll Practice Mod v0.5.5
 
 ## Acknowledgements
 
@@ -36,7 +36,7 @@
 - The right analog stick controls scrollable lists (both on Earth and the pause menu).
 - F6 toggles the speed overlay during gameplay.
 - F10 toggles the developers' FPS display during gameplay.
-- In the endless category, R2 saves a state and L2 loads that state.
+- In the Endless category, R2 saves a state and L2 loads that state.
 
 ## Categories
 
@@ -55,9 +55,21 @@
 - When time is used as a tiebreaker, your time is the *first time* you reach your score.
   For example, if you end a Max Size run at 19cm7mm, your tiebreaker is the first time you reached 19cm7mm, even if you kept playing.
 
+## Importing your existing PBs
+
+1. Hover over the level on Earth and select the category you want to import into.
+2. Press the "Import PB" button shown on the bottom of the screen.
+3. Type your score in with the keyboard. The score will appear red until it's formatted correctly.
+    * For time, the score should look like "mm:ss" or "mm:ss.dd".
+    * For size, the score should look like "123m45cm6mm", with units left out as necessary.
+4. Press the "Confirm import" button.
+5. The imported score will always override your existing PB, so if you make a mistake, you can just re-import.
+
 ## Mod Options menu
 
 - **Categories**: filters the available categories to a smaller subset.
+- **Force Initial RNG**: Resets the game's RNG to the initial values that occur when
+  the game is opened. This can be used to force the mosquito coil start in MAS2.
 - **BGM**: choose a random, fixed, or the default background song to play in each stage.
 - **Run In Background**: forces the game to continue updating while it's not the active window.
 - **Spawn Cousins**: when on, cousin objects will always spawn.
@@ -88,17 +100,18 @@
 | MAS9  | 3m, 12m            |
 | MTM   | 3m, 12m, 60m, 200m |
 
-## Importing your existing PBs
-
-1. Hover over the level on Earth and select the category you want to import into.
-2. Press the "Import PB" button shown on the bottom of the screen.
-3. Type your score in with the keyboard. The score will appear red until it's formatted correctly.
-    * For time, the score should look like "mm:ss" or "mm:ss.dd".
-    * For size, the score should look like "123m45cm6mm", with units left out as necessary.
-4. Press the "Confirm import" button.
-5. The imported score will always override your existing PB, so if you make a mistake, you can just re-import.
-
 ## Changelog
+
+### Changes made in v0.5.5
+- Some savestates polish:
+  - The King doesn't get mad at you when you fall below the goal size
+    by loading a state.
+  - Loading a state behind a loading zone should now work in smaller levels
+    (1, 2, 3, 5, 6).
+- Added the "Force Initial RNG" option to begin every level with the
+  RNG set to what it is when you first open the game
+  (this can be used to force the mosquito coil start in MAS2).
+- Fixed a bug where the Random BGM only had two songs in the rotation.
 
 ### Changes made in v0.5.4
 - Some savestates polish:
