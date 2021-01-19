@@ -1,21 +1,22 @@
 # Reroll Mod Updater
 
-## Setup (please read this)
+## Setup
 
-- Before running the updater, use Steam to revert to the
-  unmodded game files
-  (right click the game in your Steam library -> properties -> "local
-  files" tab -> "verify integrity of game files").
-  **You only have to revert files once, and the updater can be used to
-  return to the original game after that**.
+- Use Steam to revert to the unmodded game:
+  - Right click the game in your Steam library -> Properties
+  - In the "Local Files" tab, select "Verify Integrity of Game Files".
 
-- Download `RPMUpdater.exe` and **place it in the root game directory**.
-  This is the same directory as the game executable, `katamari.exe`.
-  (To open the root game directory, from the same "local files" tab,
-  select "browse local files").
+- In the same "Local Files" tab, select "Browse Local Files" to open
+  the Steam game directory.
+
+- Download `RPMUpdater.exe` and move it to the Steam game directory
+  that you just opened.
 
 - You should now be able to run `RPMUpdater.exe` to download and install
   the available mods.
+  - **Note:** "installing" a version of Reroll means that's the version that
+    plays when you open the game. You can use this to easily switch between
+    the practice mod and the original game for RTA.
 
 ## Changelog
 

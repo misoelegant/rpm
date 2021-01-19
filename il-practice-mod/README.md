@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.5.5
+# Reroll Practice Mod v0.5.6
 
 ## Acknowledgements
 
