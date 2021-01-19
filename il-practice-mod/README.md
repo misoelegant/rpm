@@ -24,6 +24,7 @@
 ## Features
 
 - Much less downtime between attempts when practicing ILs.
+- Mostly functional savestates.
 - Automatically track PBs, attempts, and playtime for each level. Old PBs can be imported into the mod.
 - Automatic splits are tracked for the speed-based categories, which are shown during and after each attempt.
 - Separate categories are available for both RTA speedruns, as well as for "max size" runs and other challenges.
@@ -87,8 +88,8 @@
 
 ## Savestates
 
-- Currently, it breaks the game when you cross a loading size more than once
-  using states:
+- Currently, there may be some issues when loading into a state that's
+  on the other side of a loading zone size:
 
 | Level | Loading sizes      |
 |-------|--------------------|
@@ -101,6 +102,13 @@
 | MTM   | 3m, 12m, 60m, 200m |
 
 ## Changelog
+
+### Changes made in v0.5.6
+- Some savestates polish:
+  - Moving backwards though loading zone sizes via savestates should
+    be much more playable now, though there are still several issues.
+  - The mod's save file now tracks rerecords made in each endless level.
+- Fixed a bug that was causing splits to be partially deleted.
 
 ### Changes made in v0.5.5
 - Some savestates polish:
