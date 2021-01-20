@@ -9,8 +9,8 @@
   </DllMetadata>
   <DllMetadata>
     <id>1</id>
-    <fileInfoLength>1955840</fileInfoLength>
-    <displayName>Practice Mod v0.5.6</displayName>
+    <fileInfoLength>1956864</fileInfoLength>
+    <displayName>Practice Mod v0.5.7</displayName>
     <inactiveFilePath>katamari_Data/Managed/Assembly-CSharp-rpm.dll</inactiveFilePath>
     <isDownloadable>true</isDownloadable>
     <downloadUrl>https://www.github.com/misoelegant/rpm/raw/master/il-practice-mod/Assembly-CSharp.dll</downloadUrl>

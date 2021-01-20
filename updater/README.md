@@ -4,9 +4,9 @@
 
 - Use Steam to revert to the unmodded game:
   - Right click the game in your Steam library -> Properties
-  - In the "Local Files" tab, select "Verify Integrity of Game Files".
+  - In the "Local Files" tab, select "Verify integrity of game files".
 
-- In the same "Local Files" tab, select "Browse Local Files" to open
+- In the same "Local Files" tab, select "Browse..." to open
   the Steam game directory.
 
 - Download `RPMUpdater.exe` and move it to the Steam game directory

@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.5.6
+# Reroll Practice Mod v0.5.7
 
 ## Acknowledgements
 
@@ -24,7 +24,7 @@
 ## Features
 
 - Much less downtime between attempts when practicing ILs.
-- Mostly functional savestates.
+- (Mostly) functional savestates.
 - Automatically track PBs, attempts, and playtime for each level. Old PBs can be imported into the mod.
 - Automatic splits are tracked for the speed-based categories, which are shown during and after each attempt.
 - Separate categories are available for both RTA speedruns, as well as for "max size" runs and other challenges.
@@ -102,6 +102,9 @@
 | MTM   | 3m, 12m, 60m, 200m |
 
 ## Changelog
+
+### Changes made in v0.5.7
+- Fixed a bug introduced in v0.5.6 that was breaking the camera peephole effect.
 
 ### Changes made in v0.5.6
 - Some savestates polish:
