@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.5.7
+# Reroll Practice Mod v0.5.8
 
 ## Acknowledgements
 
@@ -102,6 +102,16 @@
 | MTM   | 3m, 12m, 60m, 200m |
 
 ## Changelog
+
+### Changes made in v0.5.8
+- Fixed a bug introduced with savestates that broke the "swirl"
+  effect when you reach certain sizes (e.g. 7cm in MAS1).
+  - **Details:** In the original game, the swirl doesn't happen twice when you fall
+    below the size by losing objects then get back up to the swirl size a second time.
+    Only one swirl occurs per swirl size.
+    This bug made swirls happen every time you reach the swirl size.
+    This matters because the IGT is frozen while the swirl effect is
+    happening, so an extra swirl leads to inaccurate IGT relative to the original game.
 
 ### Changes made in v0.5.7
 - Fixed a bug introduced in v0.5.6 that was breaking the camera peephole effect.
