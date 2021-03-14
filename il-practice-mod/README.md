@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.5.8
+# Reroll Practice Mod v0.5.9
 
 ## Acknowledgements
 
@@ -45,6 +45,7 @@
 |------------------|-----------------------------------------------------------------------------------|-------------------|
 | Any%             | Fastest time to reach goal size                                                   | RTA levels        |
 | No Boost         | Fastest time to reach goal size without boosting                                  | RTA levels        |
+| Any% (Keyboard)  | Fastest time to reach goal size using keyboard controls                           | RTA levels        |
 | Min Object Types | Fewest different object types picked up to reach goal size (time tiebreaker)      | RTA levels        |
 | Max Size         | Largest Katamari size achieved (time tiebreaker)                                  | All levels        |
 | Max Objects      | Most objects picked up (time tiebreaker)                                          | All levels        |
@@ -70,7 +71,7 @@
 
 - **Categories**: filters the available categories to a smaller subset.
 - **Force Initial RNG**: Resets the game's RNG to the initial values that occur when
-  the game is opened. This can be used to force the mosquito coil start in MAS2.
+  the game is opened. This can be used to force the mosquito coil start in MAS2 (among other things).
 - **BGM**: choose a random, fixed, or the default background song to play in each stage.
 - **Run In Background**: forces the game to continue updating while it's not the active window.
 - **Spawn Cousins**: when on, cousin objects will always spawn.
@@ -102,6 +103,10 @@
 | MTM   | 3m, 12m, 60m, 200m |
 
 ## Changelog
+
+### Changes made in v0.5.9
+- Added a "25th Score" column to the IL table.
+- Added the "Any% (Keyboard)" category.
 
 ### Changes made in v0.5.8
 - Fixed a bug introduced with savestates that broke the "swirl"
