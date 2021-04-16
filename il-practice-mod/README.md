@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.5.9
+# Reroll Practice Mod v0.5.10
 
 ## Acknowledgements
 
@@ -103,6 +103,18 @@
 | MTM   | 3m, 12m, 60m, 200m |
 
 ## Changelog
+
+### Changes made in v0.5.10
+- Added categories for RBA routes. Choose the "RBA" or "All" category groups
+  in the mod options to access the RBA categories.
+- Enabled splits for the Any% (Keyboard) category.
+- The "25th Score" sum in the IL table is now second-truncated to match
+  the sum of ILs.
+- The last attempt's score is now highlighted in the "Best Scores" list.
+- Increased the scroll speed for long scrollable lists of objects and scores.
+- Leaving the constellation area keeps you on the home planet.
+- Leaving the collection area doesn't reopen the level UI on the home planet.
+- Fixed the home planet IL table to work on all display resolutions.
 
 ### Changes made in v0.5.9
 - Added a "25th Score" column to the IL table.
