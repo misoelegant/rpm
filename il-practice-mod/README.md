@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.5.10
+# Reroll Practice Mod v0.6.0
 
 ## Acknowledgements
 
@@ -35,6 +35,8 @@
 - Square button (X on 360 controllers) on Earth retries the last level played.
 - Triangle button (Y on 360 controllers) on Earth changes category.
 - The right analog stick controls scrollable lists (both on Earth and the pause menu).
+- F4 toggles a visualization of the katamari's collision mesh.
+- F5 toggles the bounding boxes and vault points of unattached objects.
 - F6 toggles the speed overlay during gameplay.
 - F10 toggles the developers' FPS display during gameplay.
 - In the Endless category, R2 saves a state and L2 loads that state.
@@ -81,7 +83,7 @@
   - *Only in MAS1*, he will always announce the first time you pick up an object.
 - **In-game Splits**: when on, shows splits under the in-game timer.
 - **Timer Format**: adjusts the format of the timer. The "Default" setting behaves the same as the unmodified game's timer.
-- **Cousin**: changes the cousin used in gameplay. Note that presents only appear when playing as the Prince.
+- **Cousin**: changes the cousin used in gameplay.
 - **Katamari Model**: changes the Katamari model used in gameplay.
   - Most models are named after the levels where they're used in the unmodified game.
   - Two models aren't available in the unmodified single player game.
@@ -103,6 +105,34 @@
 | MTM   | 3m, 12m, 60m, 200m |
 
 ## Changelog
+
+### Changes made in v0.6.0
+- Cousins now show equipped presents during gameplay.
+- A few geometry overlays were added:
+  - **Note**: turning on either overlay will DQ your score.
+  - F4 toggles drawing the katamari's boundary collision.
+    (The red mesh is the underlying katamari boundary, and blue lines
+     represents extra vault points induced by attached objects.)
+  - F5 toggles drawing bounding boxes and vault points for unattached
+    objects.
+- RBA polish:
+  - Added relevant Taurus categories to the RBA group
+    (Cow Pylon, Cow Vending Machine, Cow Umbrella).
+  - Added a generic "ring" object to MAS2 and MAS8 object lists.
+    This indicates that the random ring spawn should be collected.
+  - R3 now toggles the object list between the "intended collection" order
+    and the "missing objects first" order.
+  - Added best and recent score lists to RBA categories.
+  - Integrated RBA with the home planet IL table and the Earth "sum of ILs".
+  - Cousins now correctly spawn in Eternal levels.
+  - Fixed the Any% categories on Taurus.
+  - Added Any% categories to MAS3 and MAS5 to follow the RBA route.
+  - When the RBA category group is active, progress towards object lists
+    are viewable from the pause menu in Endless.
+- The pause menu object list now shows the collected quantity of each object
+  in the "Min Object Types" category.
+- Table scroll speed now changes based on how far the analog stick is held.
+- Added the North Star Any% category (get to 5m quickly, then quit out).
 
 ### Changes made in v0.5.10
 - Added categories for RBA routes. Choose the "RBA" or "All" category groups
