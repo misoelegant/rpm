@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.6.0
+# Reroll Practice Mod v0.6.1
 
 ## Acknowledgements
 
@@ -105,6 +105,14 @@
 | MTM   | 3m, 12m, 60m, 200m |
 
 ## Changelog
+
+### Changes made in v0.6.1
+- Category groups can now be individually enabled and disabled from the mod
+  settings menu. The "Misc" category group was split into two smaller groups
+  to take advantage of this change.
+- Added preview text showing the stage title and category to the pre-gameplay
+  king cutscene. The preview text only shows when the stage or category has
+  changed from the previous attempt.
 
 ### Changes made in v0.6.0
 - Cousins now show equipped presents during gameplay.
