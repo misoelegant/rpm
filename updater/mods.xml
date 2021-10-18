@@ -4,6 +4,7 @@
     <id>0</id>
     <fileInfoLength>1698304</fileInfoLength>
     <displayName>Original</displayName>
+    <displayNameJp>オリジナル</displayNameJp>
     <inactiveFilePath>katamari_Data/Managed/Assembly-CSharp-original.dll</inactiveFilePath>
     <isDownloadable>false</isDownloadable>
   </DllMetadata>
@@ -11,6 +12,7 @@
     <id>1</id>
     <fileInfoLength>2052096</fileInfoLength>
     <displayName>Practice Mod v0.6.1</displayName>
+    <displayNameJp>練習MOD v0.6.1</displayNameJp>
     <inactiveFilePath>katamari_Data/Managed/Assembly-CSharp-rpm.dll</inactiveFilePath>
     <isDownloadable>true</isDownloadable>
     <downloadUrl>https://www.github.com/misoelegant/rpm/raw/master/il-practice-mod/Assembly-CSharp.dll</downloadUrl>
@@ -19,6 +21,7 @@
     <id>2</id>
     <fileInfoLength>1748992</fileInfoLength>
     <displayName>RBA</displayName>
+    <displayNameJp>RBA</displayNameJp>
     <inactiveFilePath>katamari_Data/Managed/Assembly-CSharp-rba.dll</inactiveFilePath>
     <isDownloadable>true</isDownloadable>
     <downloadUrl>https://www.github.com/misoelegant/rpm/raw/master/1438-rba-mod/Assembly-CSharp.dll</downloadUrl>
