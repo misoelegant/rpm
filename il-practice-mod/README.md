@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.6.1
+# Reroll Practice Mod v0.7.0
 
 ## Acknowledgements
 
@@ -104,7 +104,88 @@
 | MAS9  | 3m, 12m            |
 | MTM   | 3m, 12m, 60m, 200m |
 
+
+## Console documentation
+
+- Open/close the console with `` ` ``.
+- Execute a command with `Enter`.
+- Scroll through previously executed commands with up/down arrow keys.
+- Increase font size: `Ctrl`+`=`.
+- Decrease font size: `Ctrl`+`-`.
+- Multiple commands can be executed in order by separating them with `;`.
+  - e.g. the command `noclip;freeze` enters noclip mode, then freezes the game physics.
+- **Note:** the details of how to use each command is printed with the "help" argument, e.g. `frameadvance help` prints help for the `frameadvance` command.
+
+### `macro`, `savemacro`
+  - Binds a command or sequence of commands (a macro) to an F key (`F1`-`F12`).
+  - Using `macro` is temporary, and the macro disappears when you close the game.
+  - Using `savemacro` is permanent, and saves all macros to your save file.
+    - The default F key shortcuts are now just `savemacro` binding definitions. 
+  - If a temporary and permanent macro are both bound to the same key, only the temporary macro is executed.
+  - Example: `savemacro f8 noclip;freeze` permanently saves the macro `noclip:freeze` to the `F8` key.
+
+### `deletemacro`
+  - Deletes a macro assigned to a key. 
+  - If a temporary and permanent macro are both bound to the same key, only the temporary macro is deleted.
+  - Example: `deletemacro f8`.
+
+### `clear`
+  - Clears the console output.
+
+### `copy`
+  - `copy ils [category]`: Writes a column of MAS1-Moon IL times to the clipboard that can be pasted into the spreadsheet. Categories are `any`, `nb`, `kb`.
+  - `copy splits`: If you're hovering over a level on the overworld, writes that level's splits to the clipboard.
+
+### `draw`
+  - Draws certain physics simulation data (some of these was previously in the mod already).
+  - Run the command `draw help` to see all available visualizations (they all kinda suck though).
+
+### `frameadvance`
+  - Advances one or more physics ticks (only in Endless). 
+
+### `freeze`
+  - Freezes physics ticks (only in Endless)
+  - If the physics are already frozen, unfreezes them.
+
+### `initialrng`
+  - Toggles the "Force Initial RNG" mod option.
+  - The console prints 
+
+### `noclip`
+  - Toggles "noclip mode".
+
+### `overlay`
+  - Toggles through the speed/gacha displays that were previously in the mod.
+
+### `speed`
+  - Sets the speed of physics updates, as in Cheat Engine's game speed multiplier (only in Endless).
+
 ## Changelog
+
+### Changes made in v0.7.0
+- Added a console (open/close with `).
+  - Console commands are documented [here](https://github.com/misoelegant/rpm/tree/master/il-practice-mod#console-documentation).
+  - Messing with the console DQs you from whatever attempt you're in.
+- Added "noclip mode" to Endless.
+  - Camera controls are more or less the same as [WASD controls on noclip.website](https://github.com/magcius/noclip.website#controls).
+  - The 1 key opens a list of all currently loaded objects.
+    - Click an object's row to warp to it (without turning the camera). You might need to zoom in or out to see the object better.
+    - Click on a column header to sort by that column. Click again to reverse the sort.
+    - The currently shown columns (just as a first test):
+      - ID: a unique number identifying each object.
+      - Type: the number identifying the object's names
+      - Name: the object's displayed name
+      - Anim: The index of the object's animation script.
+      - Msg (message): The index of the king speech that plays when you collect the object.
+      - MsgGp (message group): The index of the king speech that plays when you collect all objects with the same MsgGp value.
+- New F key behavior:
+  - F1: does a physics frame advance (only in the Endless category)
+  - F2: toggles physics freeze (only in the Endless category)
+  - F3: toggles noclip mode (only in the Endless category)
+  - F4: toggles katamari collision rays (unchanged)
+  - F5: toggles object bounding boxes and vault points (unchanged)
+  - F6: toggles through speed/gacha watches (unchanged)
+  - F10: toggles initial RNG
 
 ### Changes made in v0.6.1
 - Category groups can now be individually enabled and disabled from the mod
