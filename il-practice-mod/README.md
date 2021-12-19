@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.7.0
+# Reroll Practice Mod v0.7.1
 
 ## Acknowledgements
 
@@ -129,6 +129,13 @@
   - If a temporary and permanent macro are both bound to the same key, only the temporary macro is deleted.
   - Example: `deletemacro f8`.
 
+### `savestate`, `loadstate`
+  - Save and load the savestate, respectively.
+
+### `lockstate`
+  - Toggles a "lock" on the savestate which prevents it from being overwritten.
+  - Rerun `lockstate` to turn the lock off.
+
 ### `clear`
   - Clears the console output.
 
@@ -157,13 +164,30 @@
 ### `overlay`
   - Toggles through the speed/gacha displays that were previously in the mod.
 
+### `randomlevel`
+  - When on Earth in the overworld, selects a random level in the current category.
+
+### `size`
+  - Sets the katamari size. Size format 
+
 ### `speed`
   - Sets the speed of physics updates, as in Cheat Engine's game speed multiplier (only in Endless).
 
 ## Changelog
 
+### Changes made in v0.7.1
+  - Added the `randomlevel` command to choose a random level in the current category.
+    - By default this is assigned to the `F7` key.
+  - Added the `size` command to set the katamari's size (only in Endless).
+  - The noclip mode object list should correctly update when objects are loaded.
+  - Savestates should be much more accurate and useful.
+    - There still seem to be "rotated object" bugs but I can't reliably reproduce them yet.
+  - The Select button can now be used to toggle a lock the savestate.
+    - If the savestate is locked, saving a new state won't do anything.
+    - Loading state is unaffected by the lock.
+
 ### Changes made in v0.7.0
-- Added a console (open/close with `).
+- Added a console (open/close with `` ` ``).
   - Console commands are documented [here](https://github.com/misoelegant/rpm/tree/master/il-practice-mod#console-documentation).
   - Messing with the console DQs you from whatever attempt you're in.
 - Added "noclip mode" to Endless.
