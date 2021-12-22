@@ -1,9 +1,9 @@
-# Reroll Practice Mod v0.7.1
+# Reroll Practice Mod v0.7.2
 
 ## Acknowledgements
 
 - Thanks to the players who tested the mod and provided feedback, feature ideas, and bug reports:
-  martini, rattmann, pimittens, Enzor, dunewacky, shamana, Odyssic,
+  martini, rattmann, pimittens, Enzor, dunewacky, shamana, Odyssic, GameIt,
   and everyone else who has supported and engaged with the mod's ongoing development.
 - Huge thanks to sisuka and Harutomo for providing Japanese translations.
 
@@ -89,22 +89,6 @@
   - Two models aren't available in the unmodified single player game.
     The models are instead named after the cousins that use them in VS mode, Marcy and Kuro.
 
-## Savestates
-
-- Currently, there may be some issues when loading into a state that's
-  on the other side of a loading zone size:
-
-| Level | Loading sizes      |
-|-------|--------------------|
-| MAS2  | 10cm               |
-| MAS4  | 10cm, 20cm, 50cm   |
-| MAS5  | 45cm               |
-| MAS7  | 3m                 |
-| MAS8  | 45cm, 1m50cm, 5m   |
-| MAS9  | 3m, 12m            |
-| MTM   | 3m, 12m, 60m, 200m |
-
-
 ## Console documentation
 
 - Open/close the console with `` ` ``.
@@ -168,12 +152,24 @@
   - When on Earth in the overworld, selects a random level in the current category.
 
 ### `size`
-  - Sets the katamari size. Size format 
+  - Sets the katamari size (only in Endless).
+  - Size format is either as the game displays it (e.g. "1m23cm34mm") or as a regular decimal
+    number in centimeters.
 
 ### `speed`
   - Sets the speed of physics updates, as in Cheat Engine's game speed multiplier (only in Endless).
 
 ## Changelog
+
+### Changes made in v0.7.2
+  - Added the "NameId" column to the noclip mode object list, which
+    indicates whether an object has a unique name.
+  - Fixed a bug where objects were invisible after loading
+    a savestate where they were uncollected.
+  - Increased the speed of the cutscene that plays when the game is quit 
+    from the overworld home planet.
+  - Added Any% (Hidden) and Any% (POV) categories to the "Challenges" 
+    category group.
 
 ### Changes made in v0.7.1
   - Added the `randomlevel` command to choose a random level in the current category.
