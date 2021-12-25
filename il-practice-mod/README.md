@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.7.2
+# Reroll Practice Mod v0.7.3
 
 ## Acknowledgements
 
@@ -160,6 +160,14 @@
   - Sets the speed of physics updates, as in Cheat Engine's game speed multiplier (only in Endless).
 
 ## Changelog
+
+### Changes made in v0.7.3
+  - Added a "100% Ending" category.
+    - The ending is entered from the purple icon on Earth.
+    - Your score is recorded as the frame you collect 195 countries.
+    - You need to quit out of the level manually with Start (`Tab` on keyboard).
+  - Fixed a bug where scores were recorded twice if the level timer expired.
+  - Changed the katamari collsion rays to always be visible when drawn.
 
 ### Changes made in v0.7.2
   - Added the "NameId" column to the noclip mode object list, which
