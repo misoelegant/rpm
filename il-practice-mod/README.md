@@ -1,9 +1,9 @@
-# Reroll Practice Mod v0.7.3
+# Reroll Practice Mod v0.7.4
 
 ## Acknowledgements
 
 - Thanks to the players who tested the mod and provided feedback, feature ideas, and bug reports:
-  martini, rattmann, pimittens, Enzor, dunewacky, shamana, Odyssic, GameIt,
+  martini, rattmann, pimittens, Enzor, dunewacky, shamana, Odyssic, GameIt, seruran_blue,
   and everyone else who has supported and engaged with the mod's ongoing development.
 - Huge thanks to sisuka and Harutomo for providing Japanese translations.
 
@@ -160,6 +160,13 @@
   - Sets the speed of physics updates, as in Cheat Engine's game speed multiplier (only in Endless).
 
 ## Changelog
+
+### Changes made in v0.7.4
+  - Cousins should now mostly display on the overworld, if one is selected.
+    - The "random" cousin is reloaded each time the overworld is reloaded.
+    - Known bug: when you move from Earth to the Home Planet, the presents disappear.
+  - Fixed a bug that may have broken some players' "best scores" table.
+  - When the katamari model is set to "Random", there is now a 1% chance of using the moon model. Exciting!
 
 ### Changes made in v0.7.3
   - Added a "100% Ending" category.
