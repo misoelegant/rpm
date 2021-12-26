@@ -8,7 +8,7 @@ Developed by grass and pimittens.
 
 ## Summary
 
-- This is a mod that makes minimal QoL changes without affecting the original game as a speedrun.
+- This is a mod that makes minimal QoL changes while aiming to leave the speedrun's gameplay unaffected.
 - Use the [launcher](https://github.com/misoelegant/rpm/tree/master/updater) to download and install this mod.
 
 ## Options
@@ -18,6 +18,7 @@ Developed by grass and pimittens.
 - **Text advance turbo**: gives the text advance button turbo inputs.
   - Designed to be on par with what is already allowed via a Steam controller configuration. 
   - ~10.4 pps with 0.15 second delay before turbo input starts.
+- **Show credits IL table**: truncated level times are displayed during the credits sequence.
 - **MAS1 BGM**: sets the song on MAS1 to one of:
   - "You Are Smart" (default on Reroll and PS2-J)
   - "WANDA WANDA" (default on PS2-NA)
