@@ -19,14 +19,18 @@ Developed by grass and pimittens.
   - Designed to be on par with what is already allowed via a Steam controller configuration. 
   - ~10.4 pps with 0.15 second delay before turbo input starts.
 - **Show credits IL table**: truncated level times are displayed during the credits sequence.
-- **MAS1 BGM**: sets the song on MAS1 to one of:
-  - "You Are Smart" (default on Reroll and PS2-J)
-  - "WANDA WANDA" (default on PS2-NA)
 - **Player character**: allows the player to appear as a cousin during gameplay.
   - The player still appears as the prince during other non-gameplay scenes.
   - The random setting is only rolled once (when the game opens).
 - **Katamari model**: allows the player to use a specific katamari model for all levels.
   - The random setting is only rolled once (when the game opens).
+- **Equipped present**: allows the player to wear a present.
+  - Note that some present-cousin combinations will look buggy. 
+    These can be fixed on an individual basis, so please feel free to let us know if you'd like a 
+    specific combo to look better.
+- **MAS1 BGM**: sets the song on MAS1 to one of:
+  - "You Are Smart" (default on Reroll and PS2-J)
+  - "WANDA WANDA" (default on PS2-NA)
 
 ## Other changes (which don't affect Any%)
 
@@ -53,3 +57,8 @@ provided that the original invisible goals of the constellation are met. These g
 
 This mod is legal for use in the speedrun.com "1438 objects (RBA Mod)" category.
 **It is not legal in the unmodded 1438 objects category.**
+
+## Changelog
+
+### Bugfix (1/7/22)
+  - Fixed a bug that was making the tutorial crash for cousins with two antennae.
