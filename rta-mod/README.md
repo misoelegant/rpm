@@ -55,7 +55,7 @@ provided that the original invisible goals of the constellation are met. These g
   - Make Virgo: 80 maidens
   - Make Gemini: 22 sets of twins
 
-This mod is legal for use in the speedrun.com "1438 objects (RBA Mod)" category.
+This mod is legal for use in the speedrun.com "1438 objects (RTA Mod)" category.
 **It is not legal in the unmodded 1438 objects category.**
 
 ## Changelog
