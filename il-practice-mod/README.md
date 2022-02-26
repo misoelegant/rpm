@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.7.4
+# Reroll Practice Mod v0.7.5
 
 ## Acknowledgements
 
@@ -160,6 +160,14 @@
   - Sets the speed of physics updates, as in Cheat Engine's game speed multiplier (only in Endless).
 
 ## Changelog
+
+### Changes made in v0.7.5
+  - Added a custom delay before the game unfreezes after loading state. This delay can be customized by using the console.
+    - For example, the console command `savemacro l2 loadstate 300` will add a delay of `300` milliseconds (you can change the number to any delay).
+  - Added the `hideobjects` command to toggle the visibility of objects in Endless.
+    - Bind this command to the select button with the console command `savemacro back hideobjects`.
+  - Enabled splits and the stats table for the Any% (Hidden) and Any% (POV) categories.
+  - Temporarily disabled the noclip mode object list to see if that helps with framerate issues.
 
 ### Changes made in v0.7.4
   - Cousins should now mostly display on the overworld, if one is selected.
