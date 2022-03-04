@@ -60,5 +60,8 @@ This mod is legal for use in the speedrun.com "1438 objects (RTA Mod)" category.
 
 ## Changelog
 
+### Bugfix (3/4/22)
+  - Fixed a bug causing a crash when no presents were equipped.
+
 ### Bugfix (1/7/22)
   - Fixed a bug that was making the tutorial crash for cousins with two antennae.
