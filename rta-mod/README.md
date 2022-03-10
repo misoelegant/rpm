@@ -2,7 +2,7 @@
 
 ## Acknowledgements
 
-Guided by ideas and feedback from Enzor, GameIt, sisuka, Odyssic, sunkir, pimittens, Blaust, and shamana.
+Designed with ideas and feedback from Enzor, GameIt, sisuka, Odyssic, sunkir, pimittens, Blaust, shamana, Harutomo, and shookieTea.
 
 Developed by grass and pimittens.
 
@@ -13,12 +13,16 @@ Developed by grass and pimittens.
 
 ## Options
 
+These are quality of life additions that are designed to not affect speedrun times.
+
 - **Run in background**: keeps the game running while its window isn't focused.
 - **Skip splash screen**: skips the first ~6 seconds of cutscenes when the game opens.
 - **Text advance turbo**: gives the text advance button turbo inputs.
   - Designed to be on par with what is already allowed via a Steam controller configuration. 
   - ~10.4 pps with 0.15 second delay before turbo input starts.
 - **Show credits IL table**: truncated level times are displayed during the credits sequence.
+- **Use PMod SFX Volume**: sets the sound effect volume to its value in the practice mod.
+- **Use PMod BGM Volume**: sets the BGM volume to its value in the practice mod.
 - **Player character**: allows the player to appear as a cousin during gameplay.
   - The player still appears as the prince during other non-gameplay scenes.
   - The random setting is only rolled once (when the game opens).
@@ -31,6 +35,14 @@ Developed by grass and pimittens.
 - **MAS1 BGM**: sets the song on MAS1 to one of:
   - "You Are Smart" (default on Reroll and PS2-J)
   - "WANDA WANDA" (default on PS2-NA)
+
+## Categories
+
+These are **gameplay-altering** changes that affect the speedrun category that a run belongs to.
+
+- **Hidden**: all objects are invisible unless they are attached to the katamari. 
+  - Note: the clouds of smoke above "Smokestack" objects currently remain visible, but might be removed later.
+- **POV**: the game camera is placed (roughly) at the prince's point of view.
 
 ## Other changes (which don't affect Any%)
 
@@ -59,6 +71,11 @@ This mod is legal for use in the speedrun.com "1438 objects (RTA Mod)" category.
 **It is not legal in the unmodded 1438 objects category.**
 
 ## Changelog
+
+### Update (3/9/22)
+  - Added options to keep the same SFX and BGM volumes as in the practice mod.
+  - Added options for "hidden" and "POV" categories (defined above).
+  - Added a 1% chance of using the moon katamari model when a "random" model is selected.
 
 ### Bugfix (3/4/22)
   - Fixed a bug causing a crash when no presents were equipped.

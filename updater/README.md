@@ -20,6 +20,9 @@
 
 ## Changelog
 
+### 3/9/2022
+- Added more RTA mod options.
+
 ### 1/6/2021
 - Fixed a goofy bug that caused the practice mod to be listed as
   an "unknown" version.
