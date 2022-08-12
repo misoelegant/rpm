@@ -1,9 +1,9 @@
-# Reroll Practice Mod v0.7.5
+# Reroll Practice Mod v0.7.6
 
 ## Acknowledgements
 
 - Thanks to the players who tested the mod and provided feedback, feature ideas, and bug reports:
-  martini, rattmann, pimittens, Enzor, dunewacky, shamana, Odyssic, GameIt, seruran_blue,
+  martini, rattmann, pimittens, Enzor, dunewacky, shamana, Odyssic, GameIt, seruran_blue, shookie,
   and everyone else who has supported and engaged with the mod's ongoing development.
 - Huge thanks to sisuka and Harutomo for providing Japanese translations.
 
@@ -120,6 +120,9 @@
   - Toggles a "lock" on the savestate which prevents it from being overwritten.
   - Rerun `lockstate` to turn the lock off.
 
+### `boostgauge`
+  - Toggles the visual boost gauge in Endless categories.
+
 ### `clear`
   - Clears the console output.
 
@@ -142,6 +145,9 @@
   - Toggles the "Force Initial RNG" mod option.
   - The console prints 
 
+### `lockcamera`
+  - When in noclip mode, this command locks the camera's position relative to the katamari and returns control to the player.
+
 ### `noclip`
   - Toggles "noclip mode".
 
@@ -160,6 +166,21 @@
   - Sets the speed of physics updates, as in Cheat Engine's game speed multiplier (only in Endless).
 
 ## Changelog
+
+### Changes made in v0.7.6
+  - Katamari size is now shown in Endless on North Star.
+  - Added a category for getting exactly 10m on North Star.
+  - Added a "gun volume" slider in the bgm/sfx volume menu.
+    - Controls the volume of the gunshot noises when policemen are shooting at you.
+  - Added an "overworld BGM" selection to the mod options menu.
+    - Controls the BGM song that plays in the overworld. You need to reload the overworld to apply the song change (e.g. by entering and exiting the collection).
+  - Fixed a bug which caused the Any% (POV) sum of ILs to be displayed incorrectly.
+  - Polished Any% (Hidden): 
+    - Fixed a bug which incorrectly triggered king messages for collecting all objects in a group.
+    - Fixed a bug which caused newly loaded objects to be briefly visible.
+  - Increased the overworld R2 travel speed back to 5x normal speed.
+  - Added the `lockcamera` command (documented above).
+  - Added the `boostgauge` command (documented above).
 
 ### Changes made in v0.7.5
   - Added a custom delay before the game unfreezes after loading state. This delay can be customized by using the console.
