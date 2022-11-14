@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.7.6
+# Reroll Practice Mod v0.8.0
 
 ## Acknowledgements
 
@@ -24,7 +24,7 @@
 ## Features
 
 - Much less downtime between attempts when practicing ILs.
-- (Mostly) functional savestates.
+- (Mostly) functional savestates and input recording/playback.
 - Automatically track PBs, attempts, and playtime for each level. Old PBs can be imported into the mod.
 - Automatic splits are tracked for the speed-based categories, which are shown during and after each attempt.
 - Separate categories are available for both RTA speedruns, as well as for "max size" runs and other challenges.
@@ -167,6 +167,19 @@
 
 ## Changelog
 
+### Changes made in v0.8.0
+  - Added input recording and playback.
+    - Documentation forthcoming when I am less tired
+  - Added "Any% (Drive)" category in the "Challenges" category group.
+  - Polished noclip camera speeds to be a little less janky.
+  - Fixed broken savestates in Ursa Major (and Pisces, Virgo, and Cancer).
+  - Added "faster attempts" option in mod options.
+    - Enabling this makes the king's pre-level text advance instantly, which makes resetting 40-50% faster for shorter levels.
+  - Added `kingtext [string]` command to simulate the king speaking the string `[string]`.
+    - See the "king texts" sheet on the dump spreadsheet for examples of strings.
+  - Polished boost energy overlay (shown with `boostgauge` command in Endless):
+    - Added gacha counter and gacha reset timer.
+
 ### Changes made in v0.7.6
   - Katamari size is now shown in Endless on North Star.
   - Added a category for getting exactly 10m on North Star.
@@ -179,8 +192,8 @@
     - Fixed a bug which incorrectly triggered king messages for collecting all objects in a group.
     - Fixed a bug which caused newly loaded objects to be briefly visible.
   - Increased the overworld R2 travel speed back to 5x normal speed.
-  - Added the `lockcamera` command (documented above).
-  - Added the `boostgauge` command (documented above).
+  - Added the `lockcamera` command.
+  - Added the `boostgauge` command.
 
 ### Changes made in v0.7.5
   - Added a custom delay before the game unfreezes after loading state. This delay can be customized by using the console.
