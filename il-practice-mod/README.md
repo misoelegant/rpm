@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.8.0
+# Reroll Practice Mod v0.8.1
 
 ## Acknowledgements
 
@@ -98,7 +98,8 @@
 - Decrease font size: `Ctrl`+`-`.
 - Multiple commands can be executed in order by separating them with `;`.
   - e.g. the command `noclip;freeze` enters noclip mode, then freezes the game physics.
-- **Note:** the details of how to use each command is printed with the "help" argument, e.g. `frameadvance help` prints help for the `frameadvance` command.
+- **Note:** the details of how to use each command is printed with the "help" argument, e.g. `frameadvance help` prints help for the `frameadvance`
+  command.
 
 ### `macro`, `savemacro`
   - Binds a command or sequence of commands (a macro) to an F key (`F1`-`F12`).
@@ -148,6 +149,9 @@
 ### `lockcamera`
   - When in noclip mode, this command locks the camera's position relative to the katamari and returns control to the player.
 
+### `mod`
+  - Enables/disables gameplay mods in Endless.
+
 ### `noclip`
   - Toggles "noclip mode".
 
@@ -167,10 +171,16 @@
 
 ## Changelog
 
+### Changes made in v0.8.1
+  - Fixed bug which made initial RNG always enabled.
+  - Added Any% (Void) category.
+  - Added `mod` command for toggling gameplay mods in Endless.
+    - `mod list` shows available mods.
+    - `mod toggle [modname]` toggles a mod.
+
 ### Changes made in v0.8.0
   - Added input recording and playback.
     - Documentation forthcoming when I am less tired
-  - Added "Any% (Drive)" category in the "Challenges" category group.
   - Polished noclip camera speeds to be a little less janky.
   - Fixed broken savestates in Ursa Major (and Pisces, Virgo, and Cancer).
   - Added "faster attempts" option in mod options.

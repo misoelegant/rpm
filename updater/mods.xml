@@ -11,9 +11,9 @@
   </DllMetadata>
   <DllMetadata>
     <id>1</id>
-    <fileInfoLength>2237952</fileInfoLength>
-    <displayName>Practice Mod v0.8.0</displayName>
-    <displayNameJp>練習MOD v0.8.0</displayNameJp>
+    <fileInfoLength>2251264</fileInfoLength>
+    <displayName>Practice Mod v0.8.1</displayName>
+    <displayNameJp>練習MOD v0.8.1</displayNameJp>
     <inactiveFilePath>katamari_Data/Managed/Assembly-CSharp-rpm.dll</inactiveFilePath>
     <isDownloadable>true</isDownloadable>
     <showRtaModOptions>false</showRtaModOptions>
@@ -34,7 +34,7 @@
     <fileInfoLength>2057216</fileInfoLength>
     <displayName>Practice Mod v0.6.1</displayName>
     <displayNameJp>練習MOD v0.6.1</displayNameJp>
-    <inactiveFilePath>katamari_Data/Managed/Assembly-CSharp-rpm-beta.dll</inactiveFilePath>
+    <inactiveFilePath>katamari_Data/Managed/Assembly-CSharp-rpm-redo.dll</inactiveFilePath>
     <isDownloadable>true</isDownloadable>
     <showRtaModOptions>false</showRtaModOptions>
     <downloadUrl>https://www.github.com/misoelegant/rpm/raw/master/il-practice-mod/Assembly-CSharp-redo.dll</downloadUrl>
