@@ -1,4 +1,4 @@
-# Reroll Practice Mod v0.8.1
+# Reroll Practice Mod v0.8.2
 
 ## Acknowledgements
 
@@ -170,6 +170,10 @@
   - Sets the speed of physics updates, as in Cheat Engine's game speed multiplier (only in Endless).
 
 ## Changelog
+
+### Changes made in v0.8.2
+  - Added alternate shortcut to open the console: `ctrl+shift+f`
+  - Added Drive and Hidden categories for the Ending level.
 
 ### Changes made in v0.8.1
   - Fixed bug which made initial RNG always enabled.
